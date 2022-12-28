@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <section>
+      <!-- current playing track number -->
+      <header>
+        <img src="" alt="Current Playing Track" />
+        <h3></h3>
+        <p></p>
+      </header>
+
+      <!-- playlist label -->
+      <label>Playlist</label>
+
+      <!-- Track List -->
+      <ul></ul>
+
+      <!-- Music Controls -->
+      <footer>
+        <!-- sliders -->
+        <div class="slider">
+          <div class="slider-progress">
+            <div class="slider-pin"></div>
+          </div>
+        </div>
+
+        <!-- count display -->
+        <div class="count">
+          <span class="count-current"></span>
+          <span class="count-final"></span>
+        </div>
+
+        <!-- events -->
+        <div class="event">
+          <i class="fas fa-caret-left event-prev"></i>
+          <i class="fas fa-play event-playPause"></i>
+          <i class="fas fa-caret-right event-next"></i>
+          <i class="fas fa-volume-up event-muteUnmute"></i>
+        </div>
+      </footer>
+    </section>
+
+    <!-- audio -->
+    <audio src="" id="audio"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
